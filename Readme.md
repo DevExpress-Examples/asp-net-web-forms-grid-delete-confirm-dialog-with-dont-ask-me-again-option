@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [TestData.cs](./CS/WebSite/App_Code/TestData.cs) (VB: [TestData.vb](./VB/WebSite/App_Code/TestData.vb))
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [WebUserControl.ascx](./CS/WebSite/WebUserControl.ascx) (VB: [WebUserControl.ascx.vb](./VB/WebSite/WebUserControl.ascx.vb))
+* [WebUserControl.ascx.cs](./CS/WebSite/WebUserControl.ascx.cs) (VB: [WebUserControl.ascx.vb](./VB/WebSite/WebUserControl.ascx.vb))
+<!-- default file list end -->
 # How to implement a delete confirm dialog with a "don't ask me again" option
 
 
