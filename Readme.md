@@ -8,6 +8,9 @@
 * [WebUserControl.ascx.cs](./CS/WebSite/WebUserControl.ascx.cs) (VB: [WebUserControl.ascx.vb](./VB/WebSite/WebUserControl.ascx.vb))
 <!-- default file list end -->
 # How to implement a delete confirm dialog with a "don't ask me again" option
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1120/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how you can implement a round-cornered delete confirm dialog providing end-users with an option to prevent subsequent dialog displaying.</p>
