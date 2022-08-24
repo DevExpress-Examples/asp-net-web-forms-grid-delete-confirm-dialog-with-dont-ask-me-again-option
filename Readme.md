@@ -14,7 +14,7 @@
 <!-- default file list end -->
 # How to implement a delete confirm dialog with a "don't ask me again" option
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1120/)**
+**[[Run Online]](https://codecentral.devexpress.com/128540794/)**
 <!-- run online end -->
 
 
