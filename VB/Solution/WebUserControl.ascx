@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="WebUserControl.ascx.cs" Inherits="Solution.WebUserControl1" %>
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="WebUserControl.ascx.vb" Inherits="Solution.WebUserControl" %>
 
 <dx:ASPxRoundPanel ID="ASPxRoundPanel1" runat="server" BackColor="LightGray" Width="300px" HeaderText="Delete Confirmation" DefaultButton="btnYes">
     <PanelCollection>
