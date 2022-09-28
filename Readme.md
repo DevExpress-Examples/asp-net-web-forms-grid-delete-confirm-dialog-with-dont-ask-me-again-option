@@ -8,19 +8,25 @@
 **[[Run Online]](https://codecentral.devexpress.com/128540794/)**
 <!-- run online end -->
 
-![Delete Confirmation Dialog](delete-confirm-dialog.png)
+This example demonstrates how to implement a delete confirmation dialog with an option to prevent its displays for subsequent grid row deletions.
 
-This example demonstrates how you can implement a delete confirmation dialog with an option to prevent subsequent dialog displays.
+![Delete Confirmation Dialog](./delete-confirm-dialog.png)
 
-The confirm dialog is implemented using the ASPxPopupControl. It contains a WebUserControl representing the dialog content. The content's top control is the ASPxRoundPanel, which provides the round corner appearance of the dialog. Within its children, the ASPxRoundPanel contains an ASPxLabel control showing the ID value of the row to be deleted, two command ASPxButtons ("Yes", "No") and an ASPxCheckBox that, if checked, enables further delete operations to be performed without confirmation.
+## Implementation Details
 
-Pay your attention that in this example the "Don't ask confirmation" check box' value is stored within a client-side script variable ("dontAskConfirmation"). In a real-life application, it's recommended to preserve this value within a user-specific store such as user profile settings or cookies.
+The confirm dialog is based on the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl). The popup contains the dialog content wrapped in a WebUserControl.
 
-Note that in this sample the following features and tricks are realized to make it work as expected:
-- The ID value of the processed row is stored within a client script variable ("rowVisibleIndex");.
-- The ASPxPopupControl is made transparent to display its child ASPxRoundPanel as the dialog's immediate container;
-- The ASPxPopupControl is used in modal mode and customized, so that it is always displayed centered within the ASPxGridView control (try to resize grid columns and invoke the dialog);
-- The "Yes" button is made the dialog's default button (using the ASPxRoundPanel's DefaultButton property) to allow dialog submitting by pressing the Enter key. The "Yes" button programmatically receives input focus after the dialog is shown.
+> **Note:** In this example, the "Don't ask confirmation" check box's value is stored in a client JavaScript variable (`dontAskConfirmation`). We recommend that in a real-life application you save this value to a user-specific storage such as cookies or user profile settings.
+
+The example application uses the following techniques:
+
+- The `ID` field value of the processed row is stored in the client `rowVisibleIndex` variable.
+
+- The ASPxPopupControl is made transparent so that it displays its child [ASPxRoundPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxRoundPanel) as the dialog's immediate container.
+
+- The ASPxPopupControl is used in modal mode and configured to always be displayed at the Grid View's center.
+
+- The "Yes" button is made the dialog's default button (its ID is assigned to the ASPxRoundPanel's [DefaultButton](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanelBase.DefaultButton) property) so that you can press  `Enter` to submit the dialog. The "Yes" button programmatically receives the input focus after the dialog is shown.
 
 ## Files to Review
 
@@ -31,6 +37,10 @@ Note that in this sample the following features and tricks are realized to make 
 - [WebUserControl.ascx.cs](./CS/Solution/WebUserControl.ascx.cs) (VB: [WebUserControl.ascx.vb](./VB/Solution/WebUserControl.ascx.vb))
 
 ## Documentation
+
+- [Edit Data](https://docs.devexpress.com/AspNet/3712/components/grid-view/concepts/edit-data)
+- [Popup Control](https://docs.devexpress.com/AspNet/3582/components/docking-and-popups/popup-control)
+- [RoundPanel](https://docs.devexpress.com/AspNet/8292/components/multi-use-site-controls/roundpanel)
 
 ## More Examples
 
