@@ -16,7 +16,7 @@ This example demonstrates how to implement a delete confirmation dialog with an 
 
 The confirm dialog is based on the [ASPxPopupControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPopupControl). The popup contains the dialog content wrapped in a WebUserControl.
 
-> **Note:** In this example, the "Don't ask confirmation" check box's value is stored in a client JavaScript variable (`dontAskConfirmation`). We recommend that in a real-life application you save this value to a user-specific storage such as cookies or user profile settings.
+> **Note:** In this example, the "Don't ask for confirmation" check box's value is stored in a client JavaScript variable (`dontAskConfirmation`). We recommend that in a real-life application, you save this value to a user-specific storage such as cookies or user profile settings.
 
 The example application uses the following techniques:
 
