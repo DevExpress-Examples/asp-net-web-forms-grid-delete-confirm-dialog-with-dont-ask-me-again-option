@@ -8,7 +8,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/128540794/)**
 <!-- run online end -->
 
-This example demonstrates how to implement a delete confirmation dialog with an option to prevent its displays for subsequent grid row deletions.
+This example demonstrates how to implement a delete confirmation dialog with an option to prevent its display for subsequent grid row deletions.
 
 ![Delete Confirmation Dialog](./delete-confirm-dialog.png)
 
@@ -26,7 +26,7 @@ The example application uses the following techniques:
 
 - The ASPxPopupControl is used in modal mode and configured to always be displayed at the Grid View's center.
 
-- The "Yes" button is made the dialog's default button (its ID is assigned to the ASPxRoundPanel's [DefaultButton](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanelBase.DefaultButton) property) so that you can press  `Enter` to submit the dialog. The "Yes" button programmatically receives the input focus after the dialog is shown.
+- The "Yes" button is the dialog's default button (its ID is assigned to the ASPxRoundPanel's [DefaultButton](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPanelBase.DefaultButton) property), so users can press `Enter` to submit the dialog. The "Yes" button programmatically receives the input focus after the dialog is shown.
 
 ## Files to Review
 
