@@ -30,7 +30,7 @@
             <table>
                 <tr>
                     <td>
-                        <dx:ASPxCheckBox ID="cbDontAsk" runat="server" Text="Don't&nbsp;ask&nbsp;confirmation" ClientInstanceName="cbDontAsk">
+                        <dx:ASPxCheckBox ID="cbDontAsk" runat="server" Text="Don't&nbsp;ask&nbsp;for&nbsp;confirmation" ClientInstanceName="cbDontAsk">
                             <ClientSideEvents CheckedChanged="cbDontAsk_CheckedChanged" />
                         </dx:ASPxCheckBox>
                     </td>
