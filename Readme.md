@@ -47,7 +47,7 @@ The example application uses the following techniques:
 - [How to show a confirmation dialog using ASPxPopupControl](https://supportcenter.devexpress.com/internal/ticket/details/T103862)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-delete-confirm-dialog-with-dont-ask-me-again-option&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-delete-confirm-dialog-with-dont-ask-me-again-option&~~~was_helpful=no)
 
