@@ -43,8 +43,8 @@ The example application uses the following techniques:
 ## More Examples
 
 - [How to include a deleted row KeyField value into the delete confirmation dialog](https://supportcenter.devexpress.com/ticket/details/e131/how-to-include-a-deleted-row-keyfield-value-into-the-delete-confirmation-dialog)
-- [How to insert (or update) ASPxTreeList's row by clicking on an external button and delete rows with custom confirmation popup window](https://supportcenter.devexpress.com/internal/ticket/details/E2938)
-- [How to show a confirmation dialog using ASPxPopupControl](https://supportcenter.devexpress.com/internal/ticket/details/T103862)
+- [How to insert (or update) ASPxTreeList's row by clicking on an external button and delete rows with custom confirmation popup window](https://supportcenter.devexpress.com/ticket/details/E2938)
+- [How to show a confirmation dialog using ASPxPopupControl](https://supportcenter.devexpress.com/ticket/details/T103862)
 
 <!-- feedback -->
 ## Does This Example Address Your Development Requirements/Objectives?
